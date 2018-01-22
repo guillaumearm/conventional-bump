@@ -1,0 +1,35 @@
+{
+  "name": "conventional-bump",
+  "version": "0.1.0",
+  "description": "bump package.json version according to conventional-changelog",
+  "bin": {
+    "conventional-bump": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guillaumearm/conventional-bump.git"
+  },
+  "keywords": [
+    "npm",
+    "conventional-changelog",
+    "version-bump"
+  ],
+  "author": "Guillaume ARM",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guillaumearm/conventional-bump/issues"
+  },
+  "homepage": "https://github.com/guillaumearm/conventional-bump#readme",
+  "dependencies": {
+    "conventional-recommended-bump": "^1.1.0",
+    "path": "^0.12.7",
+    "yargs": "^10.1.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=8.9.0"
+  }
+}
