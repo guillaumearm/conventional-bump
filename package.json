@@ -6,8 +6,15 @@
     "conventional-bump": "./index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint ."
+    "precommit": "npm run lint-staged",
+    "lint": "eslint .",
+    "lint-staged": "lint-staged",
+    "test": "npm run lint"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint"
+    ]
   },
   "repository": {
     "type": "git",
@@ -31,7 +38,9 @@
   },
   "devDependencies": {
     "eslint": "^4.16.0",
-    "eslint-plugin-node": "^5.2.1"
+    "eslint-plugin-node": "^5.2.1",
+    "husky": "^0.14.3",
+    "lint-staged": "^6.0.1"
   },
   "engines": {
     "node": ">=8.9.0"
