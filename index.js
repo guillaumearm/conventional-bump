@@ -4,7 +4,7 @@ const { execSync } = require('child_process');
 const conventionalRecommendedBump = require('conventional-recommended-bump');
 
 const argv = require('yargs')
-  .usage('Usage: $0 [-p]')
+  .usage('Usage: $0 [-p preset]')
   .example('$0 -p angular', 'start conventional-bump with angular preset')
   .describe('version', 'Print current version')
   .help('h')
