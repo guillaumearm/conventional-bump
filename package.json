@@ -6,7 +6,7 @@
     "conventional-bump": "./index.js"
   },
   "scripts": {
-    "commit": "git-cz -a",
+    "commit": "git-cz",
     "bump": "node index.js",
     "commitmsg": "commitlint -e $GIT_PARAMS",
     "precommit": "npm run lint-staged",
