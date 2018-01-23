@@ -7,7 +7,7 @@
   },
   "scripts": {
     "commit": "git-cz -a",
-    "release": "node index.js",
+    "bump": "node index.js",
     "commitmsg": "commitlint -e $GIT_PARAMS",
     "precommit": "npm run lint-staged",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
