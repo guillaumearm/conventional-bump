@@ -30,7 +30,7 @@
     "conventional-changelog",
     "version-bump"
   ],
-  "author": "Guillaume ARM",
+  "author": "Guillaume ARM <trapcodien@hotmail.fr> (https://github.com/guillaumearm/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/guillaumearm/conventional-bump/issues"
