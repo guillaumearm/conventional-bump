@@ -13,7 +13,7 @@ Purpose of this library is to automatically bump the package.json version number
 
 ## Installation
 ```bash
-npm install --save-dev conventional-bump
+$ npm install --save-dev conventional-bump
 ```
 
 ## Usage
@@ -37,4 +37,9 @@ in your package.json :
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md"
   }
 }
+```
+
+## Publish a npm module
+```bash
+$ npm run bump && npm publish
 ```
