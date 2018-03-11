@@ -37,9 +37,9 @@
   },
   "homepage": "https://github.com/guillaumearm/conventional-bump#readme",
   "dependencies": {
-    "conventional-recommended-bump": "^1.1.0",
+    "conventional-recommended-bump": "^2.0.6",
     "path": "^0.12.7",
-    "yargs": "^10.1.1"
+    "yargs": "^11.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^6.0.2",
