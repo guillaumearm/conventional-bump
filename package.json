@@ -36,6 +36,7 @@
   },
   "homepage": "https://github.com/guillaumearm/conventional-bump#readme",
   "dependencies": {
+    "conventional-changelog-angular": "^5.0.2",
     "conventional-recommended-bump": "^4.0.4",
     "path": "^0.12.7",
     "yargs": "^12.0.2"
@@ -50,6 +51,9 @@
     "eslint-plugin-node": "^5.2.1",
     "husky": "^0.14.3",
     "lint-staged": "^6.0.1"
+  },
+  "peerDependencies": {
+    "conventional-changelog-cli": ">=2.0.0"
   },
   "engines": {
     "node": ">=8.9.0"
