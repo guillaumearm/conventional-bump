@@ -1,6 +1,6 @@
 {
   "name": "conventional-bump",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "bump package.json version according to conventional-changelog",
   "bin": {
     "conventional-bump": "./index.js"

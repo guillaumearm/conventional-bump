@@ -1,3 +1,12 @@
+## [1.0.6](https://github.com/guillaumearm/conventional-bump/compare/v1.0.5...v1.0.6) (2018-11-03)
+
+
+### Bug Fixes
+
+* add missing dependencies ([a660163](https://github.com/guillaumearm/conventional-bump/commit/a660163))
+
+
+
 ## [1.0.5](https://github.com/guillaumearm/conventional-bump/compare/v1.0.4...v1.0.5) (2018-11-03)
 
 
