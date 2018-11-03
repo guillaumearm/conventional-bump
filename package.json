@@ -37,17 +37,17 @@
   },
   "homepage": "https://github.com/guillaumearm/conventional-bump#readme",
   "dependencies": {
-    "conventional-recommended-bump": "^2.0.6",
+    "conventional-recommended-bump": "^4.0.4",
     "path": "^0.12.7",
-    "yargs": "^11.0.0"
+    "yargs": "^12.0.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^6.0.2",
     "@commitlint/config-conventional": "^6.0.2",
-    "commitizen": "^2.9.6",
-    "conventional-changelog-cli": "^1.3.5",
+    "commitizen": "^3.0.4",
+    "conventional-changelog-cli": "^2.0.11",
     "cz-conventional-changelog": "^2.1.0",
-    "eslint": "^4.16.0",
+    "eslint": "^5.8.0",
     "eslint-plugin-node": "^5.2.1",
     "husky": "^0.14.3",
     "lint-staged": "^6.0.1"
